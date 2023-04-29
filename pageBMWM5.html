@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/CSS/page2.css" rel="stylesheet" />
+    <title>BMW M5</title>
+  </head>
+  <body>
+    <head>
+      <h2>Wybane auto: BMW M5, 2015</h2>
+      <div>
+        <input name="platnosc" type="radio" />
+        <label for="platnosc">Leasing</label>
+      </div>
+      <div>
+        <input name="platnosc" type="radio" />
+        <label for="platnosc">Gotówka</label>
+      </div>
+    </head>
+    <section>
+      <div>
+        <textarea id="notes" placeholder="Imię i nazwisko"></textarea>
+      </div>
+      <div>
+        <textarea id="notes" placeholder="Miejsce odbioru"></textarea>
+      </div>
+      <div>
+        <label>Data odbioru</label>
+        <input type="date" />
+      </div>
+      <div>
+        <button id="saveBtn">Zapisz dane</button>
+        <button id="loadBtn">Wczytaj z pamieci</button>
+      </div>
+    </section>
+    <aside>
+      <h2>Akcesoria dostępne:</h2>
+      <button class="opony">Opony zimowe: 4000 PLN</button>
+      <button class="gwarancja">Dodatkowy rok gwarancji: 7000 PLN</button>
+      <h2>Akcesoria wybrane:</h2>
+      <p>Opony zimowe:<span class="oponyCena"> 0</span> PLN</p>
+      <p>Dodatkowy rok gwarancji:<span class="gwarancjaCena"> 0</span> PLN</p>
+      <button class="cenaTotal">Oblicz cenę całkowitą:</button>
+      <p>Cena całkowita: <span class="cenaCalkowita">20000</span> PLN + wybrane akcesoria</p>
+    </aside>
+    <footer>
+      <a href="/index.html">Powrót</a>
+      <a href="/zakup3.html">Zakup</a>
+    </footer>
+    <script src="./pageBMWM5.js"></script>
+  </body>
+</html>
